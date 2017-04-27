@@ -60,8 +60,8 @@
 	"Origin" : [{"name":"IFRJ - CST Jogos Digitais", "site":"http://www.ifrj.edu.br/node/3142"}],
 	"Url" : "",
 	"ShortDescription" : 
-				{"pt_br" : "Beat-em-up desenvolvido como projeto de estudo no Curso Superior de Jogos Digitais do IFRJ",
-				 "en_us" : "Beat-em-up developed as a study project for the Video Games Graduate Course at IFRJ"},
+				{"pt_br" : "Beat 'em up desenvolvido como projeto de estudo no Curso Superior de Jogos Digitais do IFRJ",
+				 "en_us" : "Beat 'em up developed as a study project for the Video Games Graduate Course at IFRJ"},
 	"Description":"",
 	"Roles" : {"pt_br" : ["Programador"], 
 			   "en_us" : ["Programmer"]},
