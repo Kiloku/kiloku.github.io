@@ -1,34 +1,32 @@
-<html lang="en">
+
+<html>
 <head>
   <meta charset="utf-8">
 
   <title>Mateus</title>
   <meta name="description" content="Mateus">
-  <meta name="author" content="Mateus">
-
- <link rel="stylesheet" href="./blog.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<div class="start">
-    <h1>Mateus</h1>
-  	<h2>Programador de Jogos</h2>
-  	<p>Fala comigo: <a href="mailto:mateus.sateles@gmail.com">mateus.sateles@gmail.com</a></p>
+	<div class="start" id="start" data-page="main">
+    <h1>Mateus Lacerda de Sá Teles</h1>
+  	<h2 data-i18n="main.whatIDo">Eu faço jogos</h2>
+  	<p data-i18n="main.talkToMe">Fala comigo: <a href="mailto:mateus.sateles@gmail.com">mateus.sateles@gmail.com</a></p>
+    <h2 class="port-header">Jogos nos quais trabalhei: </h2>
   </div>
-  <div class="port-wrapper">
-    <h2>Esses, por exemplo:</h2>
-				<div class="portifolio">
-				<h3><a href="#">Título</a></h3>
-				<h4>
-				<a href="#">origem</a>
-				</h4>
-				<img src="http://placehold.it/250x250" height="250" width="250">
-				<p>20XX</p>
-				<p>lorem ipsum dolor sit amet draco dormiens nunquam titillandus</p>
-				</div>
-	</div>
+  <div id="port-wrapper" class="port-wrapper">
+     <!--dynamic!-->
+  </div>
+
+  <div class="footer" style="background-color: #191A17;">
+    <h3>O que mais eu faço: </h3>
+    <a href="./i18n.html" data-i18n="main.i18n">Tradução/Localização</a>
+  </div>
+
 </body>
+  <script type="text/javascript" src="js/global.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</html>

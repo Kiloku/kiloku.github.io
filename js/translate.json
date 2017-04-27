@@ -1,0 +1,16 @@
+{
+	"en_us":{
+		"main.whatIDo":"I make games",
+		"main.talkToMe":"Talk to me: ",
+		"main.gamesWorked" : "Games I worked on: ",
+		"main.also" : "What else I do: ",
+		"main.i18n" : "Translation/Localization"
+	},
+	"pt_br":{
+		"main.whatIDo":"Eu faço jogos",
+		"main.talkToMe":"Fala comigo: ",
+		"main.gamesWorked" : "Jogos em que trabalhei: ",
+		"main.also" : "O que mais eu faço: ",
+		"main.i18n" : "Tradução/Localização"
+	}
+}
