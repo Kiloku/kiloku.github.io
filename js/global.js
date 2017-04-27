@@ -12,7 +12,6 @@ var data = {};
 var portWrapper;
 var lang = "pt_br";
 var wordList = [];
-
 function buildPage(){
 	portWrapper = document.getElementById('port-wrapper');
 	portWrapper.innerHTML = "";
