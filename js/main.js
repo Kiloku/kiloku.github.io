@@ -1,5 +1,3 @@
-
-
 function createPanel(game, wrapper){
 	var newPanel = document.createElement('div');
 	newPanel.className = "portifolio";

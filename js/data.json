@@ -5,7 +5,7 @@
 	"Url" : "http://ludumdare.com/compo/ludum-dare-21/?action=preview&uid=5210",
 	"ShortDescription" : 
 			{"en_us":"Red, The Dragon was developed with Microsoft XNA in 48 hours by myself for a Ludum Dare competition themed on \"Escape\". The player controls a green dragon named Red to evade or shoot down the enemy projectiles, eventually fighting a \"final boss\".",
-			 "pt_br":"Desenvolvi Red, The Dragon sozinho em Microsoft XNA em 48 horas para uma competição do Ludum Dare com tema \"Escape\". O jogador controla um dragão verde chamado Red, esquivando ou destruindo projéteis, e enfrentando um boss ao final."},
+			 "pt_br":"Desenvolvi Red, The Dragon sozinho, em Microsoft XNA em 48 horas, para uma competição do Ludum Dare com tema \"Escape\". O jogador controla um dragão verde chamado Red, esquivando ou destruindo projéteis e enfrentando um boss ao final."},
 	"Description" : "",
 	"Roles" : {"pt_br" : ["Tudo"],
 			   "en_us" : ["Everything"]},
@@ -19,7 +19,7 @@
 	"Url" : "http://www.vacavitoria.com/project/vacamaia/",
 	"ShortDescription" : 
 			{"en_us":"VacaMaia is a short \"Time Challenge\" game, developed in Unity3D by Vaca Vitória Software for a local event. The player is supposed to collect 10 coins before time runs out.",
-			 "pt_br":"VacaMaia é um jogo de corrida contra o tempo, desenvolvido em Unity3D para o evento JogaBrasil. O jogador deve coletar 10 moedas antes do tempo acabar."},
+			 "pt_br":"VacaMaia é um jogo de corrida contra o tempo, desenvolvido em Unity3D para o evento JogaBrasil. O jogador deve coletar 10 moedas antes de o tempo acabar."},
 	"Description" : "",
 	"Roles" : {"pt_br" : ["Programador", "Game Designer"], 
 			   "en_us" : ["Programmer", "Game Designer"]},
@@ -33,7 +33,7 @@
 	"Origin" : [{"name":"Bit Temple Games", "site":"https://www.facebook.com/BitTempleGames"}, {"name": "Global Game Jam 2014", "site": "http://globalgamejam.org/2014/games"}],
 	"Url" : "http://globalgamejam.org/2014/games/virtual-vision",
 	"ShortDescription" : 
-			{"pt_br" : "Virtual Vision foi desenvolvido em Unity3D pela Bit Temple Games para a competição do Global Game Jam 2014. É um jogo de sci-fi em plataforma/puzzle envolvendo gravidade, anti-gravidade e obstáculos.", 
+			{"pt_br" : "Virtual Vision foi desenvolvido em Unity3D pela Bit Temple Games para a competição do Global Game Jam 2014. É um jogo de sci-fi em plataforma/puzzle envolvendo gravidade, antigravidade e obstáculos.", 
 			 "en_us" : "Virtual Vision was developed in Unity3D by Bit Temple Games for the Global Game Jam 2014 competition. It is a scifi platformer puzzle game involving gravity, anti-gravity and removal of obstacles."},
 	"Description":"",
 	"Roles" : {"pt_br" : ["Programador"], 
