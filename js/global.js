@@ -37,6 +37,12 @@ function buildPage(){
 				createPanel(e, portWrapper);
 			});
 		}
+		else if (document.getElementById("start").getAttribute("data-page") == "web")
+		{
+			data.web.forEach(function(e){
+				createPanel(e, portWrapper);
+			});
+		}
 		//createPanel(data.Games[0], portWrapper);
 	});
 	//TODO: Ler cada jogo dinamicamente.

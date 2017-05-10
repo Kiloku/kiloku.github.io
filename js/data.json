@@ -89,9 +89,82 @@
 	"Url" : "http://www.vacavitoria.com/project/robolucha/",
 	"ShortDescription":{
 		"en_us":"",
-		"pt_br":"Participei da programação do sistema de localização e realizei as traduções de português brasileiro para inglês a serem usadas no jogo e nos sites associados."},
+		"pt_br":"Participei da programação do sistema de localização e realizei as traduções de português brasileiro para inglês a serem usadas no jogo e nos sites associados."
+	},
 	"Year":"2016 - 2017",
 	"Image" : "./img/robolucha.png"
+	}
+],
+
+"web":[{
+		"Project" : "Corbo, Aguiar & Waise",
+		"Origin" : [{"name": "Tangerina Design", "site" : "http://tangerina.com.br/"}],
+		"Url" : "http://www.corboaguiarwaise.com.br/",
+		"ShortDescription":{
+			"en_us":"",
+			"pt_br":"Site institucional para o escritório de advocacia. Inclui wordpress integrado ao site principal, para a postagem de notícias relevantes."
+		},
+		"Roles" : {	"pt_br" : ["Front-end"],
+			  		"en_us" : ["Front-end"]},
+		"Technologies" : ["Javascript", "PHP", "Wordpress", "jQuery"],
+		"Year":"2013",
+		"Image" : "./img/corbo.png"
+	},
+	{
+		"Project" : "ArqGuia",
+		"Origin" : [{"name": "Tangerina Design", "site" : "http://tangerina.com.br/"}],
+		"Url" : "http://arqguia.com/",
+		"ShortDescription":{
+			"en_us":"",
+			"pt_br":"Site de pesquisa de arquitetura no Rio de Janeiro, compilando informações sobre cada obra e integrando ao Google Maps para indicar os locais."
+		},
+		"Roles" : {	"pt_br" : ["Front-end", "Back-end"],
+			  		"en_us" : ["Front-end", "Back-end"]},
+		"Technologies" : ["Javascript", "PHP", "HTML5", "Google Maps API", "jQuery"],
+		"Year":"2013",
+		"Image" : "./img/arqguia.png"
+	},
+	{
+		"Project" : "Vinitude",
+		"Origin" : [{"name": "Mônada Soluções Criativas", "site" : "http://monadasolucoes.com.br/"}],
+		"Url" : "http://vinitude.com.br/",
+		"ShortDescription":{
+			"en_us":"",
+			"pt_br":"Site do serviço de assinatura de vinhos da Vinitude. Integrado com sistema de e-commerce para a compra direta pelo site."
+		},
+		"Roles" : {	"pt_br" : ["Front-end"],
+			  		"en_us" : ["Front-end"]},
+		"Technologies" : ["Javascript", "PHP", "jQuery"],
+		"Year":"2014",
+		"Image" : "./img/vinitude.png"		
+	},
+	{
+		"Project" : "SGG/Alfred",
+		"Origin" : [{"name": "Vaca Vitória Software", "site" : "http://vacavitoria.com/"}],
+		"Url" : "http://www.vacavitoria.com/project/alfred/",
+		"ShortDescription":{
+			"en_us":"",
+			"pt_br":"Sistema avançado de geração de relatórios e administração de cursos Moodle."
+		},
+		"Roles" : {	"pt_br" : ["Front-end", "Back-end", "DBA"],
+			  		"en_us" : ["Front-end", "Back-end", "DBA"]},
+		"Technologies" : ["Java", "ZK", "MySQL", "Apache Tomcat", "Cron"],
+		"Year":"2015 - 2016",
+		"Image" : "./img/alfred.jpg"		
+	},
+	{
+		"Project" : "Robolucha",
+		"Origin" : [{"name": "Vaca Vitória Software", "site" : "http://vacavitoria.com/"}],
+		"Url" : "http://ring.robolucha.com/",
+		"ShortDescription":{
+			"en_us":"",
+			"pt_br":"Jogo online integrado a interpretador JS para ensinar programação. Utiliza integração com Facebook."
+		},
+		"Roles" : {	"pt_br" : ["Front-end", "Back-end", "DBA"],
+			  		"en_us" : ["Front-end", "Back-end", "DBA"]},		
+		"Technologies" : ["Java", "ZK", "MySQL", "Apache Tomcat", "Javascript", "AngularJS"],
+		"Year":"2015 - 2017",
+		"Image" : "./img/robolucha.png"		
 	}
 ]
 }
