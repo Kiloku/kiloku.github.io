@@ -28,13 +28,27 @@ function buildPage(){
 		if(document.getElementById("start").getAttribute("data-page") == "main")
 		{
 			data.Games.forEach(function(e){
-				createPanel(e, portWrapper);
+				if(createPanel)
+				{
+					createPanel(e, portWrapper);
+				}
+				else
+				{
+					setTimeout(buildPage, 100);
+				}
 			});
 		}
 		else if(document.getElementById("start").getAttribute("data-page") == "i18n")
 		{
 			data.i18n.forEach(function(e){
-				createPanel(e, portWrapper);
+				if(createPanel)
+				{
+					createPanel(e, portWrapper);
+				}
+				else
+				{
+					setTimeout(buildPage, 100);
+				}
 			});
 		}
 		//createPanel(data.Games[0], portWrapper);
