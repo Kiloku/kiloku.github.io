@@ -13,23 +13,29 @@
 <body>
 	<div class="start" id="start" data-page="i18n">
     <h1>Mateus Lacerda de Sá Teles</h1>
-  	<h2>Eu faço tradução e localização</h2>
-  	<p>Fala comigo: <a href="mailto:mateus.sateles@gmail.com">mateus.sateles@gmail.com</a></p>
-    <h2 class="port-header">Projetos nos quais trabalhei: </h2>
+  	<h2 data-i18n="i18n.whatIDo">Eu faço tradução e localização</h2>
+  	<p data-i18n="global.talkToMe">Fala comigo: <a href="mailto:mateus.sateles@gmail.com">mateus.sateles@gmail.com</a></p>
+    <h2 data-i18n="i18n.translationsDone" class="port-header">Traduções em que trabalhei: </h2>
   </div>
   <div id="port-wrapper" class="port-wrapper">
      <!--dynamic!-->
   </div>
   <div class="post-port">
-    <!--<div class="infobox">
+    <div  class="infobox">
       
-    <p>Esse site também foi completamente traduzido manualmente, e seu sistema de tradução desenvolvido por mim.</p>
-    </div>-->
+    <p data-i18n="i18n.infobox">Esse site também foi completamente traduzido manualmente, e seu sistema de tradução desenvolvido por mim.</p>
+    </div>
   </div>
 
-  <div class="footer" style="background-color: #191A17;">
-    <h3>O que mais eu faço: </h3>
-    <a href="./index.html">Desenvolvimento de Jogos</a> |<a href="./web.html">Desenvolvimento Web</a>
+  <div class="footer"  style="background-color: #191A17;">
+    <div class="page-picker">
+      <h3 data-i18n="footer.also">O que mais eu faço: </h3>
+      <a href="./index.html" data-i18n="footer.games">Desenvolvimento de Jogos</a> |<a href="./web.html" data-i18n="footer.web">Desenvolvimento Web</a>
+    </div>
+    <div class="lang-picker">
+      <h3 data-i18n="footer.lang">Idioma: </h3>
+      <a href="#pt_br" onclick="setLangAndTranslate('pt_br');">Português</a> |<a href="#en_us" onclick="setLangAndTranslate('en_us');">English</a> 
+    </div>
   </div>
 
 </body>

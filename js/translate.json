@@ -1,16 +1,42 @@
 {
 	"en_us":{
 		"main.whatIDo":"I make games",
-		"main.talkToMe":"Talk to me: ",
-		"main.gamesWorked" : "Games I worked on: ",
-		"main.also" : "What else I do: ",
-		"main.i18n" : "Translation/Localization"
+		"i18n.whatIDo":"I do translation and localization",
+		"web.whatIDo":"I do web development",
+		"global.talkToMe":"Talk to me: ",
+		"i18n.translationsDone" : "Translations I've worked on: ",
+		"web.sitesDone" : "Sites I've worked on: ",
+		"main.gamesMade" : "Games I have worked on: ",
+		"i18n.infobox" : "This site was manually translated and its localization system developed by me.",
+		"web.infobox" : "This site was completely developed by me, without plugins or prebuilt models. It uses advanced Javascript to dynamically display the content, which is defined with JSON.",
+		"footer.also" : "What else I do: ",
+		"footer.i18n" : "Translation/Localization",
+		"footer.web" : "Web Development",
+		"footer.games" : "Game Development",
+		"cv.experience" : "Experience: ",
+		"cv.techs" : "Technologies and Languages",
+		"games.playNow" : "Play it here",
+		"games.watchNow" : "Watch the video",
+		"footer.lang" : "Pick a language"
 	},
 	"pt_br":{
 		"main.whatIDo":"Eu faço jogos",
-		"main.talkToMe":"Fala comigo: ",
-		"main.gamesWorked" : "Jogos em que trabalhei: ",
-		"main.also" : "O que mais eu faço: ",
-		"main.i18n" : "Tradução/Localização"
+		"i18n.whatIDo":"Eu faço desenvolvimento web",
+		"web.whatIDo":"I do web development",
+		"global.talkToMe":"Fala comigo: ",
+		"i18n.translationsDone" : "Traduções em que trabalhei: ",
+		"main.gamesMade" : "Jogos em que trabalhei: ",
+		"web.sitesDone" : "Sites nos quais trabalhei: ",
+		"i18n.infobox" : "Esse site foi completamente traduzido manualmente, e seu sistema de tradução desenvolvido por mim.",
+		"web.infobox" : "Esse site também foi completamente desenvolvido por mim, sem plugins ou modelos prontos. Ele utiliza javascript avançado para apresentar dinamicamente o conteúdo, que é definido em JSON.",
+		"footer.also" : "O que mais eu faço: ",
+		"footer.i18n" : "Tradução/Localização",
+		"footer.web" : "Desenvolvimento Web",
+		"footer.games" : "Desenvolvimento de Jogos",
+		"cv.experience" : "Experiência: ",
+		"cv.techs" : "Tecnologias e Linguagens:",
+		"games.playNow" : "Jogue Aqui",
+		"games.watchNow" : "Assista ao vídeo",
+		"footer.lang" : "Escolha um idioma"
 	}
 }

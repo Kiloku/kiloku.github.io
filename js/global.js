@@ -1,31 +1,44 @@
 
-ready(buildPage());
-function ready(buildPage) {
-  if (document.readyState != 'loading'){
-    buildPage();
-  } else {
-    document.addEventListener('DOMContentLoaded', buildPage);
-  }
+var data;
+var address = window.location.href;
+
+var lang = "pt_br";
+if(address.split('#')[1] == "en_us")
+{
+	lang = "en_us";
 }
 
-var data = {};
-var portWrapper;
-var lang = "pt_br";
 var wordList = [];
-function buildPage(){
-	portWrapper = document.getElementById('port-wrapper');
-	portWrapper.innerHTML = "";
-	data = {};
+function start()
+{
 	loadJSON("./js/translate.json", function(response){
 		wordList = JSON.parse(response);
 		console.log(wordList);
-		translateAll();
 	});
 	loadJSON("./js/data.json", function(response){
 		data = JSON.parse(response);
 		console.log(data);
-		var counter = 0;
-		if(document.getElementById("start").getAttribute("data-page") == "main")
+		translateAll();
+		buildPage();
+	});
+}
+ready(start());
+function ready(buildPage) {
+  if (document.readyState != 'loading'){
+  	start();
+  } 
+  else 
+  {
+    document.addEventListener('DOMContentLoaded', buildPage);
+  }
+}
+
+var portWrapper;
+function buildPage(){
+	console.log(lang);
+	portWrapper = document.getElementById('port-wrapper');
+	portWrapper.innerHTML = "";
+	if(document.getElementById("start").getAttribute("data-page") == "main")
 		{
 			data.Games.forEach(function(e){
 				if(createPanel)
@@ -35,6 +48,7 @@ function buildPage(){
 				else
 				{
 					setTimeout(buildPage, 100);
+					console.log("re-running generator");
 				}
 			});
 		}
@@ -48,25 +62,58 @@ function buildPage(){
 				else
 				{
 					setTimeout(buildPage, 100);
+					console.log("re-running generator");
 				}
 			});
 		}
 		else if (document.getElementById("start").getAttribute("data-page") == "web")
 		{
 			data.web.forEach(function(e){
-				createPanel(e, portWrapper);
+				if(createPanel)
+				{
+					createPanel(e, portWrapper);
+				}
+				else
+				{
+					setTimeout(buildPage, 100);
+					console.log("re-running generator");
+				}
 			});
 		}
+	/*loadJSON("./js/data.json", function(response){
+		
 		//createPanel(data.Games[0], portWrapper);
-	});
+	});*/
 	//TODO: Ler cada jogo dinamicamente.
+}
+function createCV()
+{
+	var exp =  document.getElementById('expList');
+	exp.innerHTML="";
+	data.cv.Workplaces.forEach(function(e){
+		addToInner(exp, "<li> <a href='" + e.url + "'>" + e.name + "</a>: " + e.job[lang] + "</li>");
+		
+	});
+}
+
+function setLangAndTranslate(l)
+{
+	lang = l;
+	translateAll();
 }
 
 function translateAll(){
-	var toTranslate = document.querySelectorAll("[data-i18n]");
-	toTranslate.forEach(function(e){
+	buildPage();
+	if(document.getElementById("start").getAttribute("data-page") != "i18n"){
+		createCV();
+	}
+	setTimeout(function(){
+		var toTranslate = document.querySelectorAll("[data-i18n]");
+		toTranslate.forEach(function(e){
 		translateElement(e);
 	})
+	},10); //This is hacky. Can I make an event that tells me when buildPage() is done?
+	
 }
 
 function translateElement(element){
@@ -103,4 +150,8 @@ function addToInner(element, html){
           }
     };
     xobj.send(null);  
+ }
+ function parseJsonAsync(json)
+ {
+
  }

@@ -133,3 +133,13 @@ p
 	margin-top: 5px;
 	margin-left: 12px;
 }
+
+.page-picker {
+	display: inline-block;
+}
+.lang-picker {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin-right : 10px;
+}

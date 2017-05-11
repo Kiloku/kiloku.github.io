@@ -24,12 +24,14 @@ function createPanel(game, wrapper){
 	
 	//Builds list of roles
 	var rolesString = "";
-	let translatedArray = game.Roles[lang];
- 	translatedArray.forEach(function(e){
-		rolesString += e + ", ";
-	});
+	let translatedRoles = game.Roles[lang];
+	if (translatedRoles){
+	 	translatedRoles.forEach(function(e){
+			rolesString += e + ", ";
+		});
+ 	}
 	rolesString = rolesString.slice(0, -2);
-	if (translatedArray.length > 1){
+	if (translatedRoles && translatedRoles.length > 1){
 		if (lang == "en_us")
 		{
 			addToInner(newPanel, "<p><b>Roles: "+ rolesString + "</b></p>");
@@ -53,14 +55,15 @@ function createPanel(game, wrapper){
 	addToInner(newPanel, "<p>"+game.Year+"</p>");
 	addToInner(newPanel, "<br>");
 
-	addToInner(newPanel, "<p>"+game.ShortDescription.pt_br+"</p>");
+
+	addToInner(newPanel, "<p>"+game.ShortDescription[lang]+"</p>");
 	if(game.Play){
 		addToInner(newPanel, "<br>");
-		addToInner(newPanel, "<a href=\""+game.Play+"\"> Jogue Aqui </a>");
+		addToInner(newPanel, "<a href=\""+game.Play+"\" data-i18n=\"games.playNow\"> Jogue Aqui </a>");
 	}
 	if(game.Watch){
 		addToInner(newPanel, "<br>");
-		addToInner(newPanel, "<a href=\""+game.Watch+"\"> Assista ao vídeo </a>")
+		addToInner(newPanel, "<a href=\""+game.Watch+"\" data-i18n=\"games.watchNow\"> Assista ao vídeo </a>")
 	}
 
 	wrapper.appendChild(newPanel);

@@ -48,9 +48,11 @@
 	"Origin" : [{"name":"Vaca Vitória Software", "site" : "http://www.vacavitoria.com"}],
 	"Url" : "http://www.vacavitoria.com/project/robolucha/",
 	"ShortDescription" :
-				{"pt_br" : "Fui responsável pela programação do back-end e do front-end, assim como lógica de jogo e sistema de mapas personalizados."
+				{"pt_br" : "Fui responsável pela programação do back-end e do front-end, assim como lógica de jogo e sistema de mapas personalizados.",
+				 "en_us" : "I worked on programming both the back-end and the front-end, as well as game logic and a custom map system."
 				},
-	"Roles" : {"pt_br" : ["Programador", "Game Designer", "Tradutor"]},
+	"Roles" : {	"pt_br" : ["Programador", "Game Designer", "Tradutor"],
+				"en_us" : ["Programmer", "Game Designer", "Translator"]},
 	"Year" : "2016 - 2017",
 	"Image" : "./img/robolucha.png"
 	},
@@ -77,7 +79,7 @@
 	"Origin" : [],
 	"Url" : "http://translation.steampowered.com/",
 	"ShortDescription":{
-		"en_us":"",
+		"en_us":"I was accepted after taking a test to be a volunteer translator, joining the Brazilian Portuguese localization team for the Steam client and Valve Software's games.",
 		"pt_br":"Fui aprovado no teste para ser tradutor voluntário, participando do processo de localização para português brasileiro do software Steam e dos jogos desenvolvidos pela Valve e alguns de outras empresas que utilizaram o serviço do Steam Translation Server. Mais de 1000 strings traduzidas para múltiplos jogos."},
 	"Year" : "2012 - 2014",
 	"Image" : "./img/sts.png"
@@ -88,7 +90,7 @@
 	"Origin" : [{"name":"Vaca Vitória Software", "site" : "http://www.vacavitoria.com"}],
 	"Url" : "http://www.vacavitoria.com/project/robolucha/",
 	"ShortDescription":{
-		"en_us":"",
+		"en_us":"I worked on programming the site's localization system and translated all strings from Brazilian Portuguese to English.",
 		"pt_br":"Participei da programação do sistema de localização e realizei as traduções de português brasileiro para inglês a serem usadas no jogo e nos sites associados."
 	},
 	"Year":"2016 - 2017",
@@ -101,7 +103,7 @@
 		"Origin" : [{"name": "Tangerina Design", "site" : "http://tangerina.com.br/"}],
 		"Url" : "http://www.corboaguiarwaise.com.br/",
 		"ShortDescription":{
-			"en_us":"",
+			"en_us":"Institutional website for the law office. It integrates a wordpress section into the front page, for relevant news.",
 			"pt_br":"Site institucional para o escritório de advocacia. Inclui wordpress integrado ao site principal, para a postagem de notícias relevantes."
 		},
 		"Roles" : {	"pt_br" : ["Front-end"],
@@ -115,7 +117,7 @@
 		"Origin" : [{"name": "Tangerina Design", "site" : "http://tangerina.com.br/"}],
 		"Url" : "http://arqguia.com/",
 		"ShortDescription":{
-			"en_us":"",
+			"en_us":"Site for searching and indexing of architecture in Rio de Janeiro, with information about each spot and integrated with Google Maps to indicate their locations",
 			"pt_br":"Site de pesquisa de arquitetura no Rio de Janeiro, compilando informações sobre cada obra e integrando ao Google Maps para indicar os locais."
 		},
 		"Roles" : {	"pt_br" : ["Front-end", "Back-end"],
@@ -129,7 +131,7 @@
 		"Origin" : [{"name": "Mônada Soluções Criativas", "site" : "http://monadasolucoes.com.br/"}],
 		"Url" : "http://vinitude.com.br/",
 		"ShortDescription":{
-			"en_us":"",
+			"en_us":"Site for a subscription-based wine store. Integrated with e-commerce systems for direct purchase from the website.",
 			"pt_br":"Site do serviço de assinatura de vinhos da Vinitude. Integrado com sistema de e-commerce para a compra direta pelo site."
 		},
 		"Roles" : {	"pt_br" : ["Front-end"],
@@ -143,7 +145,7 @@
 		"Origin" : [{"name": "Vaca Vitória Software", "site" : "http://vacavitoria.com/"}],
 		"Url" : "http://www.vacavitoria.com/project/alfred/",
 		"ShortDescription":{
-			"en_us":"",
+			"en_us":"Advanced system to generate statistical reports and help in the administration of Moodle courses",
 			"pt_br":"Sistema avançado de geração de relatórios e administração de cursos Moodle."
 		},
 		"Roles" : {	"pt_br" : ["Front-end", "Back-end", "DBA"],
@@ -157,8 +159,8 @@
 		"Origin" : [{"name": "Vaca Vitória Software", "site" : "http://vacavitoria.com/"}],
 		"Url" : "http://ring.robolucha.com/",
 		"ShortDescription":{
-			"en_us":"",
-			"pt_br":"Jogo online integrado a interpretador JS para ensinar programação. Utiliza integração com Facebook."
+			"en_us":"Online game integrated to Javascript interpreter, with the goal of teaching programming. Integrates with Facebook.",
+			"pt_br":"Jogo online integrado a interpretador Javascript para ensinar programação. Utiliza integração com Facebook."
 		},
 		"Roles" : {	"pt_br" : ["Front-end", "Back-end", "DBA"],
 			  		"en_us" : ["Front-end", "Back-end", "DBA"]},		
@@ -166,5 +168,28 @@
 		"Year":"2015 - 2017",
 		"Image" : "./img/robolucha.png"		
 	}
-]
+],
+
+"cv" : {
+	"Header" : {"pt_br":"Experiência: ", "en_us":"Experience"},
+	"Workplaces":[{
+		"name" : "Tangerina Design",
+		"url" : "http://www.tangerina.com.br/",
+		"job" : {	"pt_br":"Desenvolvimento Web (Ago. 2013 - Dez. 2014)",
+					"en_us":"Web Development (Aug. 2013 - Dec. 2014)"}
+	},
+	{
+		"name" : "Mônada Soluções Criativas",
+		"url" : "http://monadasolucoes.com.br/",
+		"job" : {	"pt_br":"Desenvolvimento Mobile, Desenvolvimento Web (Dez. 2014 - Abr. 2015)",
+					"en_us":"Mobile Development, Web Development (Dec. 2014 - Apr. 2015)"}
+	},
+	{
+		"name" : "Vaca Vitória Software",
+		"url" : "http://www.vacavitoria.com",
+		"job" : {	"pt_br":"Desenvolvimento de Games e Software, Desenvolvimento Web, Localização/Tradução (Fev. 2012 - Abr. 2013, Abr.2015 - Abr. 2017)",
+					"en_us":"Games and Software Development, Web Development, Localization/Translation (Feb. 2012 - Apr. 2013, Apr. 2015 - Apr. 2017)"}
+	}]
+}
+
 }

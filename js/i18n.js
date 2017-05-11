@@ -28,7 +28,7 @@ function createPanel(trans, wrapper){
 	addToInner(newPanel, "<p>"+trans.Year+"</p>");
 	addToInner(newPanel, "<br>");
 
-	addToInner(newPanel, "<p>"+trans.ShortDescription.pt_br+"</p>");
+	addToInner(newPanel, "<p>"+trans.ShortDescription[lang]+"</p>");
 
 	wrapper.appendChild(newPanel);
 }

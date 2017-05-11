@@ -56,7 +56,7 @@ function createPanel(web, wrapper){
 	addToInner(newPanel, "<p>"+web.Year+"</p>");
 	addToInner(newPanel, "<br>");
 
-	addToInner(newPanel, "<p>"+web.ShortDescription.pt_br+"</p>");
+	addToInner(newPanel, "<p>"+web.ShortDescription[lang]+"</p>");
 	if(web.Technologies != [])
 	{
 		let techStrings = "";
