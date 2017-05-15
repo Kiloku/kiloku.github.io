@@ -110,10 +110,26 @@ function translateAll(){
 	setTimeout(function(){
 		var toTranslate = document.querySelectorAll("[data-i18n]");
 		toTranslate.forEach(function(e){
-		translateElement(e);
-	})
+			translateElement(e);
+		})
+		addLangToAHrefs();
+		window.location.href = window.location.href.split("#")[0] + "#" + lang;
 	},10); //This is hacky. Can I make an event that tells me when buildPage() is done?
 	
+}
+
+function addLangToAHrefs()
+{
+	var aHrefs = document.querySelectorAll("a");
+	aHrefs.forEach(function(e)
+	{
+		if(e.href.indexOf("kiloku.github.io") > -1 && !e.getAttribute("data-translateLink"))
+		{
+			console.log(e);
+
+			e.href = e.href.split('#')[0] + "#" + lang;
+		}
+	});
 }
 
 function translateElement(element){
