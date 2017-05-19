@@ -11,6 +11,23 @@ body
 {
 	text-align: center;
 }
+.start ul
+{
+	list-style: none;
+}
+.social li
+{
+	text-align: left;
+}
+.social
+{
+
+	align-self: center;
+	
+	
+	display: inline-block;
+	width: auto;
+}
 
 .port-wrapper
 {
