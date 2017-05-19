@@ -3,7 +3,7 @@ var data;
 var address = window.location.href;
 
 var lang = "pt_br";
-if(address.split('#')[1] == "en_us")
+if(address.split('#')[1] == "en_us" || address.split('#')[1] == "en-us")
 {
 	lang = "en_us";
 }
