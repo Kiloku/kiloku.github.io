@@ -41,13 +41,13 @@ function buildPage(){
 	if(document.getElementById("start").getAttribute("data-page") == "main")
 		{
 			data.Games.forEach(function(e){
-				if(createPanel)
+				if(typeof createPanel != 'undefined')
 				{
 					createPanel(e, portWrapper);
 				}
 				else
 				{
-					setTimeout(buildPage, 100);
+					setTimeout(buildPage, 50);
 					console.log("re-running generator");
 				}
 			});
@@ -55,13 +55,13 @@ function buildPage(){
 		else if(document.getElementById("start").getAttribute("data-page") == "i18n")
 		{
 			data.i18n.forEach(function(e){
-				if(createPanel)
+				if(typeof createPanel != 'undefined')
 				{
 					createPanel(e, portWrapper);
 				}
 				else
 				{
-					setTimeout(buildPage, 100);
+					setTimeout(buildPage, 50);
 					console.log("re-running generator");
 				}
 			});
@@ -69,13 +69,13 @@ function buildPage(){
 		else if (document.getElementById("start").getAttribute("data-page") == "web")
 		{
 			data.web.forEach(function(e){
-				if(createPanel)
+				if(typeof createPanel != 'undefined')
 				{
 					createPanel(e, portWrapper);
 				}
 				else
 				{
-					setTimeout(buildPage, 100);
+					setTimeout(buildPage, 50);
 					console.log("re-running generator");
 				}
 			});
