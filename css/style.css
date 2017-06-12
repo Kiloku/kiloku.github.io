@@ -6,10 +6,15 @@ body
 	margin: 0;
 	padding-bottom: 50px;
 }
-
+.logo{
+	float:right;
+	padding-right: 12%;
+}
 .start
 {
-	text-align: center;
+	align-self: center;	
+	width: auto;
+	padding-left: 12%;
 }
 .start ul
 {
@@ -22,11 +27,14 @@ body
 .social
 {
 
-	align-self: center;
-	
-	
+	align-self: center;	
 	display: inline-block;
 	width: auto;
+}
+
+.curriculum
+{
+	padding-bottom: 40px;
 }
 
 .port-wrapper
@@ -46,7 +54,7 @@ body
 
 .port-header
 {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .post-port
@@ -142,7 +150,7 @@ p
 .footer h3
 {
 	margin-left: 12px;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 }
 
 .footer p, .footer a
@@ -153,6 +161,7 @@ p
 
 .page-picker {
 	display: inline-block;
+	float: left;
 }
 .lang-picker {
 	display: inline-block;
