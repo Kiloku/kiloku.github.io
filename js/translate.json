@@ -21,8 +21,8 @@
 	},
 	"pt_br":{
 		"main.whatIDo":"Eu faço jogos",
-		"i18n.whatIDo":"Eu faço desenvolvimento web",
-		"web.whatIDo":"I do web development",
+		"i18n.whatIDo":"Eu faço tradução e localização",
+		"web.whatIDo":"Eu faço desenvolvimento web",
 		"global.talkToMe":"Fala comigo: ",
 		"i18n.translationsDone" : "Traduções em que trabalhei: ",
 		"main.gamesMade" : "Jogos em que trabalhei: ",
