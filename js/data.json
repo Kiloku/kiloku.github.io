@@ -13,6 +13,18 @@
 			   "en_us" : ["Programming Coordinator", "Programmer"]},
 	"Year" : "2017",
 	"Image" : "./img/phaidros.jpg"},
+{
+	"Title" : "Lyre Sings",
+	"Origin" : [{"name":"Global Game Jam 2018 - Gamux - Unicamp", "site":"https://globalgamejam.org/2018/jam-sites/gamux-unicamp"}],
+	"Url" : "https://globalgamejam.org/2018/games/lyre-sings",
+	"ShortDescription" : 
+				{"pt_br" : "Jogo de Ritmo desenvolvido em 48h usando Unity3D. Uma ave-lira canta com outras aves para ajudá-las.",
+				 "en_us" : "Rhythm Game developed in 48h using Unity3D. A Lyre-Bird sings with other birds to help them."},
+	"Description":"",
+	"Roles" : {"pt_br" : ["Programador", "Artista 2D"], 
+			   "en_us" : ["Programmer", "2D Artist"]},
+	"Year" : "2018",
+	"Image" : "https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/game/featured_image/lyrefeatures_0.png"},
 
 	{
 	"Title" : "A Ordem dos Dragões",
