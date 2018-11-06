@@ -1,4 +1,4 @@
-var cv = document.getElementById('c')
+var cv = document.getElementById('c') //fix
 var c = cv.getContext('2d')
 var pl = {x:10, y:560, w:40, h:10}
 var bt = {r:0, l:0, sp:0}
