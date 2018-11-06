@@ -1,4 +1,4 @@
-var cv = document.getElementById('c') //fix
+var cv = document.getElementById('c')
 var c = cv.getContext('2d')
 var pl = {x:10, y:560, w:40, h:10}
 var bt = {r:0, l:0, sp:0}
@@ -7,6 +7,7 @@ var tm = 100
 var ivl = 100
 var hp = 15
 var enspd = 2;
+var sc = 0;
 function rnd(n, x) {
   return Math.random() * (x - n) + n;
 }
@@ -51,6 +52,8 @@ function dr(){
 		e.y -= 5;
 	}
 	c.fillText("Base Health: " + hp, 10, 32)
+	c.fillText("Score: " + sc, 10, 64)
+
 
 	c.fillStyle='red'
 	for (var i = 0; i < en.length; i++)
@@ -65,6 +68,7 @@ function dr(){
 			{
 				en.splice(i,1);
 				bl.splice(j,1);
+				sc++;
 			}
 		}
 		if (e.y > 600)
