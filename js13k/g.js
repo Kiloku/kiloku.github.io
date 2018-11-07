@@ -38,6 +38,7 @@ function dr(){
 		c.fillStyle = 'red'
 		c.font = "72px Arial"
 		c.fillText("YOU DIED", 230, 300)
+		c.fillText("SCORE: " + sc, 230, 380)
 
 		return;
 	}
