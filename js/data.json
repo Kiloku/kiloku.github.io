@@ -44,7 +44,7 @@
 	
 	{
 	"Title" : "VacaMaia",
-	"Origin" : [{"name" : "Vaca Vitória Software"}],
+	"Origin" : [{"name" : "Vaca Vitória Software", "site": "#"}],
 		
 	"ShortDescription" : 
 			{"en_us":"VacaMaia is a short \"Time Challenge\" game, developed in Unity3D by Vaca Vitória Software for a local event. The player is supposed to collect 10 coins before time runs out.",
@@ -61,7 +61,7 @@
 
 	{
 	"Title" : "Robolucha",
-	"Origin" : [{"name":"Vaca Vitória Software"}],
+	"Origin" : [{"name":"Vaca Vitória Software", , "site": "#" }],
 	"ShortDescription" :
 				{"pt_br" : "Fui responsável pela programação do back-end e do front-end, assim como lógica de jogo e sistema de mapas personalizados.",
 				 "en_us" : "I worked on programming both the back-end and the front-end, as well as game logic and a custom map system."
@@ -183,7 +183,7 @@
 	},
 	{
 		"Project" : "SGG/Alfred",
-		"Origin" : [{"name": "Vaca Vitória Software"}],
+		"Origin" : [{"name": "Vaca Vitória Software", "site": "#"}],
 		"ShortDescription":{
 			"en_us":"Advanced system to generate statistical reports and help in the administration of Moodle courses",
 			"pt_br":"Sistema avançado de geração de relatórios e administração de cursos Moodle."
@@ -196,7 +196,7 @@
 	},
 	{
 		"Project" : "Robolucha",
-		"Origin" : [{"name": "Vaca Vitória Software"}],
+		"Origin" : [{"name": "Vaca Vitória Software", "site": "#"}],
 		"Url" : "http://ring.robolucha.com/",
 		"ShortDescription":{
 			"en_us":"Online game integrated to Javascript interpreter, with the goal of teaching programming. Integrates with Facebook.",
@@ -226,6 +226,7 @@
 	},
 	{
 		"name" : "Vaca Vitória Software",
+		"url" : "#",
 		"job" : {	"pt_br":"Desenvolvimento de Games e Software, Desenvolvimento Web, Localização/Tradução (Fev. 2012 - Abr. 2013, Abr.2015 - Abr. 2017)",
 					"en_us":"Games and Software Development, Web Development, Localization/Translation (Feb. 2012 - Apr. 2013, Apr. 2015 - Apr. 2017)"}
 	}]
