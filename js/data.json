@@ -44,7 +44,7 @@
 	
 	{
 	"Title" : "VacaMaia",
-	"Origin" : [{"name" : "Vaca Vitória Software", "site": "#"}],
+	"Origin" : [{"name" : "Vaca Vitória Software", "site":"#"}],
 		
 	"ShortDescription" : 
 			{"en_us":"VacaMaia is a short \"Time Challenge\" game, developed in Unity3D by Vaca Vitória Software for a local event. The player is supposed to collect 10 coins before time runs out.",
@@ -61,7 +61,7 @@
 
 	{
 	"Title" : "Robolucha",
-	"Origin" : [{"name":"Vaca Vitória Software", , "site": "#" }],
+	"Origin" : [{"name":"Vaca Vitória Software", "site":"#"}],
 	"ShortDescription" :
 				{"pt_br" : "Fui responsável pela programação do back-end e do front-end, assim como lógica de jogo e sistema de mapas personalizados.",
 				 "en_us" : "I worked on programming both the back-end and the front-end, as well as game logic and a custom map system."
