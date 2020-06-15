@@ -129,7 +129,7 @@
 	
 	{
 	"Project" : "Robolucha",
-	"Origin" : [{"name":"Vaca Vitória Software"}],
+	"Origin" : [{"name":"Vaca Vitória Software", "site":"#"}],
 	"ShortDescription":{
 		"en_us":"I worked on programming the site's localization system and translated all strings from Brazilian Portuguese to English.",
 		"pt_br":"Participei da programação do sistema de localização e realizei as traduções de português brasileiro para inglês a serem usadas no jogo e nos sites associados."
